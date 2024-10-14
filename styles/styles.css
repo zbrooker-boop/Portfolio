@@ -1,0 +1,104 @@
+
+body {
+    margin: 0px;
+    font-family: Helvetica;
+}
+
+header {
+    width: 100%;
+}
+
+.content {
+    margin: 10px 150px;
+}
+
+.starter {
+    margin: 0px;
+}
+
+.headtitle {
+    background-color: rgba(0, 0, 255, 0.85);
+    background-position: center;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.headtitle h2 {
+    background-color: rgba(144, 165, 207, 0.4);
+    padding: 5px 60px;
+    margin: 10px;
+}
+
+.navigation {
+    background-color: rgb(100, 149, 237);
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px;
+    justify-content: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navigation li a:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.navigation li {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+/***/
+
+.text h4 {
+    text-decoration: underline;
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+
+.text {
+    color: whitesmoke;
+    background-color: royalblue;
+
+    height: 100%;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+
+.Image {
+    float: right;
+    height: 200px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
